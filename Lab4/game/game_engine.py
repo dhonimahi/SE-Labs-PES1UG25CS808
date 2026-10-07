@@ -44,7 +44,7 @@ class GameEngine:
             self.feedback_msg = "Type a word before submitting!"
             self.feedback_color = (240, 170, 50)
             return
-
+# Task 1: Compare the user's guess with the original secret word.
         is_correct = (guess == self.secret_word)
 
         if is_correct:
